@@ -1,0 +1,20 @@
+{
+  "name": "instaurl",
+  "version": "1.0.0",
+  "description": "Thid application used for shortning the url",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+    
+  },
+  "author": "Ashutosh Mishra",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.2",
+    "uniqid": "^5.0.3"
+  }
+}
