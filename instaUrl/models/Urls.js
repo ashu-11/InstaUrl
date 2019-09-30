@@ -22,5 +22,5 @@ const UrlSchema = new Schema({
     }
    
 });
-UrlSchema.index({ "date": 1 }, { expireAfterSeconds: 240 });
+UrlSchema.index({ "date": 1 }, { expireAfterSeconds: 600 });
 module.exports = URL = mongoose.model('URL', UrlSchema);
